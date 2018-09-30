@@ -1,5 +1,25 @@
 # Lambdas in Javascript
 
-a characteristic of a lambda expression is that it is used as data. That means that the function is passed as an argument to another function, returned as a value from a function, or assigned to variables or data structures.
+A characteristic of a lambda expression is that it is used as data. That means that the function is passed as an argument to another function, returned as a value from a function, or assigned to variables or data structures.
 
-Notes: not all lambdas are anonymous, and not all anonymous functions are lambdas!
+Note: Not all lambdas are anonymous, and not all anonymous functions are lambdas!
+
+
+```
+// Example 1: 
+// anonymous, pure and lambda
+
+const sum = (a, b) => a + b;
+
+
+Example 2:
+// functional programming using lambda
+
+const capitalize = message => message.toUpperCase();
+
+const capitalizeMessage = (message, _function) => {
+  return _function(message);
+}
+
+capitalizeMessage('hey there', capitalize); //output HEY THERE
+```
