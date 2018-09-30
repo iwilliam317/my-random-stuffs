@@ -6,13 +6,13 @@ Note: Not all lambdas are anonymous, and not all anonymous functions are lambdas
 
 
 ```
-// Example 1: 
+* Example 1: 
 // anonymous, pure and lambda
 
 const sum = (a, b) => a + b;
 
 
-Example 2:
+* Example 2:
 // functional programming using lambda
 
 const capitalize = message => message.toUpperCase();
