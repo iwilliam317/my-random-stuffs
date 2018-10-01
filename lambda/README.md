@@ -22,4 +22,12 @@ const capitalizeMessage = (message, _function) => {
 }
 
 capitalizeMessage('hey there', capitalize); //output HEY THERE
+
+
+* Example 3:
+const squared = (n) => n**2;
+const calculateSquared = (n, f) => f(n);
+
+calculateSquared(3, squared);
+
 ```
