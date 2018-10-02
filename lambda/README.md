@@ -31,3 +31,26 @@ const calculateSquared = (n, f) => f(n);
 calculateSquared(3, squared);
 
 ```
+
+## IIFE
+```
+// IIFE
+function makeCounter(){
+  var n = 0;
+
+  return () => {
+    console.log(++n);
+  }
+}
+
+const counter1 = makeCounter();
+counter1() //1
+counter1() //2
+
+const counter2 = makeCounter();
+counter2() //1
+counter2() //2
+
+counter1() //3
+
+```
