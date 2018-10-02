@@ -62,4 +62,14 @@ counter1() //3
     alert("Hello from IIFE!");
 }();
 
+void function() {
+    alert("Hello from IIFE!");
+}();
+
++ function() {
+    alert("Hello from IIFE!");
+}();
+
+
+(function(){console.log('hey iife')})()
 ```
