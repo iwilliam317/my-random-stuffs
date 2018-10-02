@@ -35,6 +35,8 @@ calculateSquared(3, squared);
 ## IIFE
 ```
 // IIFE
+
+* Example 1
 function makeCounter(){
   var n = 0;
 
@@ -52,5 +54,12 @@ counter2() //1
 counter2() //2
 
 counter1() //3
+
+
+* Example 2
+
+!function() {
+    alert("Hello from IIFE!");
+}();
 
 ```
