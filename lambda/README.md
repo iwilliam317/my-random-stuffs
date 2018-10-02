@@ -32,7 +32,7 @@ calculateSquared(3, squared);
 
 ```
 
-## IIFE
+## IIFE - Immediately-invoked Function Expression
 ```
 // IIFE
 
