@@ -20,3 +20,8 @@ Essencial for SEO's and assistive technologies
 ```
 <header> - allows assistive technologies to quickly navigate to that content. Take place in the top of <body>
 ```
+
+* Make Screen Reader Navigation Easier with the nav Landmark (**nav**)
+```
+<nav> - this tag is meant to wrap around the main navigation links in your page. Use it instead of div
+```
