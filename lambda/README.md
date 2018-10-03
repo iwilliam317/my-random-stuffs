@@ -37,6 +37,7 @@ calculateSquared(3, squared);
 // IIFE
 
 * Example 1
+```
 function makeCounter(){
   var n = 0;
 
@@ -54,10 +55,10 @@ counter2() //1
 counter2() //2
 
 counter1() //3
-
+```
 
 * Example 2
-
+```
 !function() {
     alert("Hello from IIFE!");
 }();
@@ -72,4 +73,18 @@ void function() {
 
 
 (function(){console.log('hey iife')})()
+
+```
+* Example 3
+```
+const printMsg = function(msg){
+return msg
+}('hello from iife')
+
+//or
+
+!function(msg){
+console.log(msg)
+}('hello from iife')
+
 ```
