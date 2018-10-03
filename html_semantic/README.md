@@ -3,7 +3,7 @@ Essencial for SEO's and assistive technologies
 
 ## Applied Accessibility
 
-*  Wrap Content
+*  Wrap Content (**div, section, article**)
 
 ```
 <div> - groups content
@@ -11,12 +11,12 @@ Essencial for SEO's and assistive technologies
 <article> - groups independent, self-contained content
 ```
 
-* Add a Text Alternative to Images for Visually Impaired Accessibility
+* Add a Text Alternative to Images for Visually Impaired Accessibility (**alt**)
 ```
 <img src="cat.jpeg" alt="My cat description"> - should provide a correspondent description for image. 
 ```
 
-* Make Screen Reader Navigation Easier with the header Landmark
+* Make Screen Reader Navigation Easier with the header Landmark (**header**)
 ```
 <header> - allows assistive technologies to quickly navigate to that content. Take place in the top of <body>
 ```
