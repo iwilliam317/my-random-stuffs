@@ -25,3 +25,8 @@ Essencial for SEO's and assistive technologies
 ```
 <nav> - this tag is meant to wrap around the main navigation links in your page. Use it instead of div
 ```
+
+* Make Screen Reader Navigation Easier with the footer Landmark (**footer**)
+```
+  <footer> - it's primarily used to contain copyright information or links to related documents that usually sit at the bottom of a page.
+```
