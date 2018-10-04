@@ -1,5 +1,6 @@
 # HTML Semantic
 Essencial for SEO's and assistive technologies
+### Credits - [freeCodeCamp](https://www.freecodecamp.org/)
 
 ## Applied Accessibility
 
