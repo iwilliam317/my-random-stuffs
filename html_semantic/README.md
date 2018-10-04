@@ -30,3 +30,12 @@ Essencial for SEO's and assistive technologies
 ```
   <footer> - it's primarily used to contain copyright information or links to related documents that usually sit at the bottom of a page.
 ```
+
+* Improve Accessibility of Audio Content with the audio Element (**audio**)
+```
+<audio controls> - wraps sound or audio stream content in your markup. Audio content also needs a text alternative to be accessible to people who are deaf or hard of hearing. 
+  Example:
+    <audio id="myClip" controls>
+      <source src="audio/myClip.mp3" type="audio/mpeg" />
+    </audio>
+```
