@@ -4,33 +4,33 @@ Essencial for SEO's and assistive technologies
 
 ## Applied Accessibility
 
-*  Wrap Content (**div, section, article**)
+###  Wrap Content (**div, section, article**)
 
 ```<div>``` - groups content
 ```<section>``` - groups related content
 ```<article>``` - groups independent, self-contained content
 
 
-* Add a Text Alternative to Images for Visually Impaired Accessibility (**alt**)
+### alt - Add a Text Alternative to Images for Visually Impaired Accessibility 
 
 ```<img src="cat.jpeg" alt="My cat description">``` - should provide a correspondent description for image. 
 
-* Make Screen Reader Navigation Easier with the header Landmark (**header**)
+### (header - Make Screen Reader Navigation Easier with the header Landmark 
 
 ```<header>``` - allows assistive technologies to quickly navigate to that content. Take place in the top of <body>
 
 
-* Make Screen Reader Navigation Easier with the nav Landmark (**nav**)
+### nav - Make Screen Reader Navigation Easier with the nav Landmark 
 
 ```<nav>``` - this tag is meant to wrap around the main navigation links in your page. Use it instead of div
 
 
-* Make Screen Reader Navigation Easier with the footer Landmark (**footer**)
+### footer - Make Screen Reader Navigation Easier with the footer Landmark 
 
 ```<footer>``` - it's primarily used to contain copyright information or links to related documents that usually sit at the bottom of a page.
 
 
-* Improve Accessibility of Audio Content with the audio Element (**audio**)
+### audio - Improve Accessibility of Audio Content with the audio Element 
 
 ```<audio controls>``` - wraps sound or audio stream content in your markup. Audio content also needs a text alternative to be accessible to people who are deaf or hard of hearing. 
   Example:
@@ -40,7 +40,7 @@ Essencial for SEO's and assistive technologies
     </audio>
 ```
 
-* Improve Chart Accessibility with the figure Element (**figure** / **figcaption**)
+### figure / figcaption - Improve Chart Accessibility with the figure Element 
 
 ```<figure> <figcaption>``` - used together, these items wrap a visual representation (like an image, diagram, or chart) along with its caption. 
 Example:
@@ -54,7 +54,7 @@ Example:
 </figure>
 ```
 
-* Wrap Radio Buttons in a fieldset Element for Better Accessibility (**fieldset** / **legend**)
+### fieldset / legend - Wrap Radio Buttons in a fieldset Element for Better Accessibility 
 
 ```<fieldset> <legend>``` - fieldset tag surrounds the entire grouping of radio buttons to achieve this. It often uses a legend tag to provide a description for the grouping
 Example:
