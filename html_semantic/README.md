@@ -40,3 +40,16 @@ Essencial for SEO's and assistive technologies
       <source src="audio/myClip.mp3" type="audio/mpeg" />
     </audio>
 ```
+
+* Improve Chart Accessibility with the figure Element (**figure** / ** figcaption**)
+```
+<figure> <figcaption> - used together, these items wrap a visual representation (like an image, diagram, or chart) along with its caption. 
+Example:
+<figure>
+  <img src="roundhouseDestruction.jpeg" alt="Photo of Camper Cat executing a roundhouse kick">
+  <br>
+  <figcaption>
+    Master Camper Cat demonstrates proper form of a roundhouse kick.
+  </figcaption>
+</figure>
+```
