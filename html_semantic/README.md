@@ -53,3 +53,21 @@ Example:
   </figcaption>
 </figure>
 ```
+
+* Wrap Radio Buttons in a fieldset Element for Better Accessibility (**fieldset** / **legend**)
+
+```<fieldset> <legend>``` - fieldset tag surrounds the entire grouping of radio buttons to achieve this. It often uses a legend tag to provide a description for the grouping
+Example:
+```
+<form>
+  <fieldset>
+    <legend>Choose one of these three items:</legend>
+    <input id="one" type="radio" name="items" value="one">
+    <label for="one">Choice One</label><br>
+    <input id="two" type="radio" name="items" value="two">
+    <label for="two">Choice Two</label><br>
+    <input id="three" type="radio" name="items" value="three">
+    <label for="three">Choice Three</label>
+  </fieldset>
+</form>
+```
