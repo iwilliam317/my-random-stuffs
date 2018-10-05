@@ -28,7 +28,7 @@ Essencial for SEO's and assistive technologies
 * Make Screen Reader Navigation Easier with the footer Landmark (**footer**)
 
 ```<footer>``` - it's primarily used to contain copyright information or links to related documents that usually sit at the bottom of a page.
-```
+
 
 * Improve Accessibility of Audio Content with the audio Element (**audio**)
 
