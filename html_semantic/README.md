@@ -79,5 +79,11 @@ Example:
   </fieldset>
 </form>
 ```
+### time / datetime
+Standardize Times with the HTML5 datetime Attribute
+
+<time datetime=""> - attributes to standardize times. This is an inline element that can wrap a date or time on a page.
+
+```<time datetime="20160-09-15">Thursday, September 15<sup>th</sup></time>```
 
 #### Credits - [freeCodeCamp](https://www.freecodecamp.org/)
