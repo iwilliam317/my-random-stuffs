@@ -8,6 +8,8 @@ Characteristics
 * avoiding side-effects. 
 * declarative rather than imperative.
 
+Functional code tends to be more concise, more predictable, and easier to test than imperative or object oriented code!
+
 Examples:
 ```
 const sum = (a, b) => a + b;
