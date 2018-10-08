@@ -84,6 +84,16 @@ Standardize Times with the HTML5 datetime Attribute
 
 <time datetime=""> - attributes to standardize times. This is an inline element that can wrap a date or time on a page.
 
+Example:
 ```<time datetime="20160-09-15">Thursday, September 15<sup>th</sup></time>```
+
+### access-key
+Make Links Navigatable with HTML Access Keys
+
+accesskey - attribute to specify a shortcut key to activate or bring focus to an element. This can make navigation more efficient for keyboard-only users.
+
+Example:
+```<button accesskey="b">Important Button</button>```
+
 
 #### Credits - [freeCodeCamp](https://www.freecodecamp.org/)
