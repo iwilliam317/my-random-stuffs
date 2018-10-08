@@ -95,5 +95,5 @@ accesskey - attribute to specify a shortcut key to activate or bring focus to an
 Example:
 ```<button accesskey="b">Important Button</button>```
 
-
+Note: The way of accessing the shortcut key is varying in different browsers, but usually it is ```Alt```
 #### Credits - [freeCodeCamp](https://www.freecodecamp.org/)
