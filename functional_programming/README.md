@@ -1,12 +1,14 @@
 # Function Programming
-Functional programming (often abbreviated FP) is a programming paradigm 
-Characteristics
-* composing pure functions
-* avoiding shared state
-* avoiding mutable data
-* avoiding side-effects. 
+Functional programming (often abbreviated FP) is a programming paradigm. 
 
-Functional programming is a programming paradigm
+Characteristics
+* composing pure functions.
+* avoiding shared state.
+* avoiding mutable data.
+* avoiding side-effects. 
+* declarative rather than imperative.
+
+Examples:
 ```
 const sum = (a, b) => a + b;
 
