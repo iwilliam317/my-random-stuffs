@@ -96,4 +96,14 @@ Example:
 ```<button accesskey="b">Important Button</button>```
 
 Note: The way of accessing the shortcut key is varying in different browsers, but usually it is ```Alt```
+
+### tabindex
+Use tabindex to Add Keyboard Focus to an Element
+
+tabindex - specifies the exact tab order of elements. This is achieved when the value of the attribute is set to a positive number of 1 or higher.
+Examples:
+``` <div tabindex="0">I need keyboard focus!</div> ```
+``` <input tabindex="1" type="search" name="search" id="search"> ```
+``` <input tabindex="2" type="submit" name="submit" value="Submit" id="submit">```
+
 #### Credits - [freeCodeCamp](https://www.freecodecamp.org/)
