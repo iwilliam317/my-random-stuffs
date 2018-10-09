@@ -5,17 +5,17 @@ A characteristic of a lambda expression is that it is used as data. That means t
 Note: Not all lambdas are anonymous, and not all anonymous functions are lambdas!
 
 
-```
+
 * Example 1: 
 // anonymous, pure and lambda
 
-const sum = (a, b) => a + b;
+``` const sum = (a, b) => a + b; ```
 
 
 * Example 2:
 // functional programming using lambda
 
-const capitalize = message => message.toUpperCase();
+```const capitalize = message => message.toUpperCase();
 
 const capitalizeMessage = (message, _function) => {
   return _function(message);
@@ -23,17 +23,18 @@ const capitalizeMessage = (message, _function) => {
 
 capitalizeMessage('hey there', capitalize); //output HEY THERE
 
-
+```
 * Example 3:
-const squared = (n) => n**2;
+
+```const squared = (n) => n**2;
 const calculateSquared = (n, f) => f(n);
 
-calculateSquared(3, squared);
+calculateSquared(3, squared); ```
 
-```
+
 
 ## IIFE - Immediately-invoked Function Expression
-```
+
 // IIFE
 
 * Example 1
