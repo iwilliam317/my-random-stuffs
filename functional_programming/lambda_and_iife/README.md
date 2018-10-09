@@ -21,9 +21,9 @@ const capitalizeMessage = (message, _function) => {
   return _function(message);
 }
 
-capitalizeMessage('hey there', capitalize); //output HEY THERE
+capitalizeMessage('hey there', capitalize); //output HEY THERE ```
 
-```
+
 * Example 3:
 
 ```const squared = (n) => n**2;
