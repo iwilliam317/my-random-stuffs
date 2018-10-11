@@ -14,4 +14,17 @@ const JSX = (
 ); 
 ```
 
+2. Render HTML Elements to the DOM
+
+```
+const JSX = (
+  <div>
+    <h1>Hello World</h1>
+    <p>Lets render this to the DOM</p>
+  </div>
+);
+
+ReactDOM.render(JSX,document.getElementById('challenge-node'));
+// change code below this line
+
 Credits - [freeCodeCamp](https://www.freecodecamp.org/)
