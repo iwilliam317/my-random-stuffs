@@ -11,6 +11,8 @@ Characteristics
 Functional code tends to be more concise, more predictable, and easier to test than imperative or object oriented code!
 
 Examples:
+
+1.
 ```
 const sum = (a, b) => a + b;
 
@@ -19,4 +21,14 @@ const calculateSum = (a, b, fn) => {
 }
 
 calculateSum(10, 5, sum); //15
+```
+
+2.
+```
+const calculate = (fn, a, b) => fn(a, b);
+const sum = (a, b) => a + b;
+const mult = (a, b) => a * b;
+
+calculate(sum, 2, 2);
+calculate(mult, 2, 3);
 ```
