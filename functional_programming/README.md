@@ -32,3 +32,11 @@ const mult = (a, b) => a * b;
 calculate(sum, 2, 2); // output 4
 calculate(mult, 2, 3); // output 6
 ```
+
+```
+let numbers = [1, 2, 3];
+
+const square = x => x**2;
+const squaredNumber = numbers.map(square);
+console.log(squaredNumber); // output 1, 4, 9
+```
