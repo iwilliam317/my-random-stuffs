@@ -40,3 +40,17 @@ const square = x => x**2;
 const squaredNumber = numbers.map(square);
 console.log(squaredNumber); // output 1, 4, 9
 ```
+
+
+```
+const students = [
+  { name: 'Harry', age: 7 },
+  { name: 'Joseph', age: 8 },
+  { name: 'Vito', age: 7},
+  { name: 'Eddie', age: 8}
+  ];
+
+const byName = object => object.name;
+const studentNames = students.map(byName)
+console.log(studentNames);
+```
