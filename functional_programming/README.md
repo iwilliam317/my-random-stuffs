@@ -51,6 +51,13 @@ const students = [
   ];
 
 const byName = object => object.name;
-const studentNames = students.map(byName)
-console.log(studentNames);
+const isGreaterThanSever = object => object.age > 7;
+
+const studentsNames = students.map(byName);
+const studentsGreaterThanSeven = students.filter(isGreaterThanSever).map(byName);
+
+console.group('Results:');
+console.log(`Student's name: ${studentsNames}`);
+console.log(`Age superior than 7 years: ${studentsGreaterThanSeven}`);
+console.groupEnd();
 ```
