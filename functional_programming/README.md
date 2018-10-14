@@ -44,20 +44,25 @@ console.log(squaredNumber); // output 1, 4, 9
 
 ```
 const students = [
-  { name: 'Harry', age: 7 },
-  { name: 'Joseph', age: 8 },
-  { name: 'Vito', age: 7},
-  { name: 'Eddie', age: 8}
+  { name: 'Harry', age: 7, gender: 'm' },
+  { name: 'Joseph', age: 8, gender: 'm' },
+  { name: 'Hillary', age: 12, gender: 'f' },
+  { name: 'Vito', age: 7, gender: 'm' },
+  { name: 'Eddie', age: 8, gender: 'm' },
+  { name: 'Francesca', age: 11, gender: 'f' }
   ];
 
 const byName = object => object.name;
 const isGreaterThanSever = object => object.age > 7;
+const isFemale = object => object.gender === 'f';
 
 const studentsNames = students.map(byName);
 const studentsGreaterThanSeven = students.filter(isGreaterThanSever).map(byName);
+const studentsFemale = students.filter(isFemale).map(byName);
 
 console.group('Results:');
 console.log(`Student's name: ${studentsNames}`);
 console.log(`Age superior than 7 years: ${studentsGreaterThanSeven}`);
+console.log(`Females: ${studentsFemale}`)
 console.groupEnd();
 ```
