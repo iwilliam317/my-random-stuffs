@@ -65,4 +65,10 @@ console.log(`Student's name: ${studentsNames}`);
 console.log(`Age superior than 7 years: ${studentsGreaterThanSeven}`);
 console.log(`Females: ${studentsFemale}`)
 console.groupEnd();
+
+const numbers = [1, 2, 3, 4, 5, 6];
+const isEven = number => number % 2 === 0;
+
+const evenNumbers = numbers.filter(isEven);
+console.log(evenNumbers);
 ```
