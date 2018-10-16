@@ -30,11 +30,16 @@ ReactDOM.render(JSX,document.getElementById('challenge-node'));
 3. Create a Stateless Functional Component
 
 ```
-// After being transpiled, the <div> will have a CSS class of 'customClass'
 const DemoComponent = function() {
   return (
     <div className='customClass' />
   );
 };
 ```
+
+
+```
+const Greeting = () => <div>Hey There!</div>;
+```
+
 Credits - [freeCodeCamp](https://www.freecodecamp.org/)
