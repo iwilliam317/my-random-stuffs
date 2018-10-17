@@ -71,7 +71,13 @@ console.groupEnd();
 ```
 const numbers = [1, 2, 3, 4, 5, 6];
 const isEven = number => number % 2 === 0;
+const isOdd = number => number % 2 === 1;
 
 const evenNumbers = numbers.filter(isEven);
+const oddNumbers = numbers.filter(isOdd);
+
+console.group('Outcome:');
 console.log(evenNumbers);
+console.log(oddNumbers);
+console.groupEnd();
 ```
