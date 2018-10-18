@@ -34,6 +34,7 @@ calculate(mult, 2, 3); // output 6
 ```
 
 ```
+//Using map
 let numbers = [1, 2, 3];
 
 const square = x => x**2;
@@ -43,6 +44,7 @@ console.log(squaredNumber); // output 1, 4, 9
 
 
 ```
+//Using map and filter
 const students = [
   { name: 'Harry', age: 7, gender: 'm' },
   { name: 'Joseph', age: 8, gender: 'm' },
@@ -69,6 +71,7 @@ console.groupEnd();
 
 
 ```
+//Using filter
 const numbers = [1, 2, 3, 4, 5, 6];
 const isEven = number => number % 2 === 0;
 const isOdd = number => number % 2 === 1;
