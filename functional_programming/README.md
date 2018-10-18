@@ -81,3 +81,14 @@ console.log(evenNumbers);
 console.log(oddNumbers);
 console.groupEnd();
 ```
+
+
+```
+//Using reduce
+
+const sum = (a, b) => a + b;
+let numbers = [1, 2, 3];
+
+const numbersSum = numbers.reduce(sum, 0)
+console.log(numbersSum);
+```
