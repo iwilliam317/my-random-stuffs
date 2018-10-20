@@ -96,3 +96,17 @@ let numbers = [1, 2, 3];
 const numbersSum = numbers.reduce(sum, 0)
 console.log(numbersSum);
 ```
+
+
+```
+function greeting(greet){
+  return function(name){
+    console.log(`${greet} ${name}`);
+  }
+}
+
+const hello = greeting('hello');
+
+hello('william');
+hello('ricardo');
+```
