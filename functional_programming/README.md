@@ -12,7 +12,7 @@ Functional code tends to be more concise, more predictable, and easier to test t
 
 Examples:
 
-
+1. High order functions
 ```
 const sum = (a, b) => a + b;
 
@@ -33,6 +33,7 @@ calculate(sum, 2, 2); // output 4
 calculate(mult, 2, 3); // output 6
 ```
 
+2. Map
 ```
 //Using map
 let numbers = [1, 2, 3];
@@ -69,7 +70,7 @@ console.log(`Females: ${studentsFemale}`)
 console.groupEnd();
 ```
 
-
+3. Filter
 ```
 //Using filter
 const numbers = [1, 2, 3, 4, 5, 6];
@@ -85,7 +86,7 @@ console.log(oddNumbers);
 console.groupEnd();
 ```
 
-
+4. Reduce
 ```
 //Using reduce
 
