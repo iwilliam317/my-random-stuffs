@@ -97,7 +97,7 @@ const numbersSum = numbers.reduce(sum, 0)
 console.log(numbersSum);
 ```
 
-
+5. Currying
 ```
 function greeting(greet){
   return function(name){
