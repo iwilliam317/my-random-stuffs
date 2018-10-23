@@ -33,6 +33,59 @@ calculate(sum, 2, 2); // output 4
 calculate(mult, 2, 3); // output 6
 ```
 
+
+```
+const letters = new Map();
+
+letters.set('A', 2);
+letters.set('B', 22);
+letters.set('C', 222);
+
+letters.set('D', 3);
+letters.set('E', 33);
+letters.set('F', 333);
+
+letters.set('G', 4);
+letters.set('H', 44);
+letters.set('I', 444);
+
+
+letters.set('J', 5);
+letters.set('K', 55);
+letters.set('L', 555);
+
+letters.set('M', 6);
+letters.set('N', 66);
+letters.set('O', 666);
+
+letters.set('P', 7);
+letters.set('Q', 77);
+letters.set('R', 777);
+letters.set('S', 7777);
+
+letters.set('T', 8);
+letters.set('U', 88);
+letters.set('V', 888);
+
+letters.set('W', 9);
+letters.set('X', 99);
+letters.set('Y', 999);
+letters.set('Z', 9999);
+letters.set(' ', 0);
+
+const retrieve_number_code = letter => letters.get(letter).toString();
+
+const join_all = code => code.join().replace(/,/g, '');
+
+
+const message = 'ola'.toUpperCase().split('');
+let code = message.map(retrieve_number_code)
+code = join_all(code)
+
+console.log(code) //6665552
+```
+
+
 2. Map
 ```
 //Using map
