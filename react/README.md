@@ -29,6 +29,7 @@ ReactDOM.render(JSX,document.getElementById('challenge-node'));
 
 3. Create a Stateless Functional Component
 
+option 1
 ```
 const DemoComponent = function() {
   return (
@@ -42,4 +43,15 @@ const DemoComponent = function() {
 const Greeting = () => <div>Hey There!</div>;
 ```
 
+option 2
+```
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    <div><h1>Hello React!</h1></div>
+  }
+};
+```
 Credits - [freeCodeCamp](https://www.freecodecamp.org/)
