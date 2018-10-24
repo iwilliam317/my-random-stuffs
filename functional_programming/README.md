@@ -163,3 +163,23 @@ const hello = greeting('hello');
 hello('william');
 hello('ricardo');
 ```
+
+
+```
+const count = () => {
+  let n = 1;
+
+  return () => { 
+    console.log(n++);
+  }
+}
+
+const counterOne = count();
+const counterTwo = count();
+counterOne() //1
+counterOne() //2
+counterOne() //3
+counterOne() //4
+counterTwo() //1
+counterTwo() //2
+```
