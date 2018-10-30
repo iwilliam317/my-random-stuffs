@@ -223,5 +223,5 @@ console.log(cleanPhone(phone)) //12 12341234
 // multiples entries
 const phoneList = ['(12) 1234-1234', '(11) 2341-4334'];
 const cleanPhoneList = phoneList.map(cleanPhone);
-console.log(cleanPhoneList)
+console.log(cleanPhoneList) //[ '12 12341234', '11 23414334' ]
 ```
