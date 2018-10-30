@@ -203,3 +203,18 @@ const exclaim = function(x) {
 const angry = compose(toUpperCase, exclaim);
 angry('ahhh');
 ```
+
+
+```
+const removeParenthesis = phone => phone.replace(/[()]/g, '');
+
+const removeDash = phone => phone.replace(/-/g, '')
+
+const compose = (fa, fb) => phone => fa(fb(phone));
+
+const cleanPhone = compose(removeDash, removeParenthesis);
+
+
+let phone = '(12) 1234-1234'
+console.log(cleanPhone(phone)) //12 12341234
+```
