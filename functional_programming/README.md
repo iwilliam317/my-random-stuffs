@@ -212,16 +212,16 @@ const removeDash = phone => phone.replace(/-/g, '')
 
 const compose = (fa, fb) => phone => fa(fb(phone));
 
-const cleanPhone = compose(removeDash, removeParenthesis);
+const clearPhone = compose(removeDash, removeParenthesis);
 
 // one entry
 const phone = '(12) 1234-1234'
-console.log(cleanPhone(phone)) //12 12341234
+console.log(clearPhone(phone)) //12 12341234
 
 //or
 
 // multiples entries
 const phoneList = ['(12) 1234-1234', '(11) 2341-4334'];
-const cleanPhoneList = phoneList.map(cleanPhone);
-console.log(cleanPhoneList) //[ '12 12341234', '11 23414334' ]
+const clearPhoneList = phoneList.map(clearPhone);
+console.log(clearPhoneList) //[ '12 12341234', '11 23414334' ]
 ```
