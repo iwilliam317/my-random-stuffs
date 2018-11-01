@@ -12,7 +12,7 @@ Functional code tends to be more concise, more predictable, and easier to test t
 
 Examples:
 
-1. High order functions
+**1. High order functions**
 ```
 const sum = (a, b) => a + b;
 
@@ -86,7 +86,7 @@ console.log(code) //6665552
 ```
 
 
-2. Map
+**2. Map**
 ```
 //Using map
 let numbers = [1, 2, 3];
@@ -123,7 +123,7 @@ console.log(`Females: ${studentsFemale}`)
 console.groupEnd();
 ```
 
-3. Filter
+**3. Filter**
 ```
 //Using filter
 const numbers = [1, 2, 3, 4, 5, 6];
@@ -139,7 +139,7 @@ console.log(oddNumbers);
 console.groupEnd();
 ```
 
-4. Reduce
+**4. Reduce**
 ```
 //Using reduce
 
@@ -150,7 +150,7 @@ const numbersSum = numbers.reduce(sum, 0)
 console.log(numbersSum);
 ```
 
-5. Currying
+**5. Currying**
 ```
 function greeting(greet){
   return function(name){
@@ -184,7 +184,7 @@ counterTwo() //1
 counterTwo() //2
 ```
 
-6. Compose
+**6. Compose**
 ```
 const compose = function(f, g) {
     return function(x) {
@@ -212,9 +212,16 @@ const removeDash = phone => phone.replace(/-/g, '')
 
 const compose = (fa, fb) => phone => fa(fb(phone));
 
-const cleanPhone = compose(removeDash, removeParenthesis);
+const clearPhone = compose(removeDash, removeParenthesis);
 
+// one entry
+const phone = '(12) 1234-1234'
+console.log(clearPhone(phone)) //12 12341234
 
-let phone = '(12) 1234-1234'
-console.log(cleanPhone(phone)) //12 12341234
+//or
+
+// multiples entries
+const phoneList = ['(12) 1234-1234', '(11) 2341-4334'];
+const clearPhoneList = phoneList.map(clearPhone);
+console.log(clearPhoneList) //[ '12 12341234', '11 23414334' ]
 ```
