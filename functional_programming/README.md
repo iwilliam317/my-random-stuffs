@@ -225,3 +225,17 @@ const phoneList = ['(12) 1234-1234', '(11) 2341-4334'];
 const clearPhoneList = phoneList.map(clearPhone);
 console.log(clearPhoneList) //[ '12 12341234', '11 23414334' ]
 ```
+
+
+```
+let numbers = [3, 12, 2]
+
+const greaterThanSeven = number => number > 7;
+const double = number => number * 2;
+
+const compose = (fa, fb) => numbers => numbers.filter(fa).map(fb);
+
+const magic = compose(greaterThanSeven, double);
+
+console.log(magic(numbers));
+```
