@@ -2,5 +2,5 @@
 Random topics on IT to study :wink:
 
 - [x] HTML Semantic
-- [ ] Functional Programming
+- [x] Functional Programming
 - [ ] React
