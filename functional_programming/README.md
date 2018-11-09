@@ -239,3 +239,15 @@ const magic = compose(greaterThanSeven, double);
 
 console.log(magic(numbers));
 ```
+
+```
+const reverseWord = s => s.split('').reverse().join('');
+
+const removeVogals = s => s.replace(/[aeiou]/gi, '')
+
+const compose = (fa, fb) => word => fa(fb(word));
+
+const mess = compose(reverseWord, removeVogals);
+
+mess('anagram'); //mrgn
+```
