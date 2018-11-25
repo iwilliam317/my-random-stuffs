@@ -251,3 +251,17 @@ const mess = compose(reverseWord, removeVogals);
 
 mess('anagram'); //mrgn
 ```
+
+```
+const byName = object => object.name
+const byAge = object => object.age
+const isUnderThirty = object => object.age < 30
+
+const people = [{name: 'william', age: 29}, {name: 'bruna', age: 32}]
+
+const compose = (fa, fb) => people => people.filter(fa).map(fb);
+
+const onlyNamesUnderThirty = compose(isUnderThirty, byName);
+
+console.log(onlyNamesUnderThirty(people))
+```
