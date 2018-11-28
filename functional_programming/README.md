@@ -265,3 +265,13 @@ const onlyNamesUnderThirty = compose(isUnderThirty, byName);
 
 console.log(onlyNamesUnderThirty(people))
 ```
+
+```
+const median = array => array[parseInt(array.length/2)];
+const isEqual = (value1, value2) => value1===value2;
+const compose = (fx, fy) => (arg1, arg2) => fy(fx(arg1), fx(arg2));
+
+const isIntersectionEqual = compose(median, isEqual);
+
+console.log(isIntersectionEqual([2,31,2], [4,4,2,31,1,1,1])) //true
+```
